@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apoio Psicológico e Bem-estar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Apoio Psicológico e Bem-estar</h1>
+    <p>Você não está sozinho. Estamos aqui para apoiar você.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="dicas.html">Dicas</a>
+    <a href="index.html#contatos">Contatos</a>
+    <a href="index.html#formulario">Ajuda Gratuita</a>
+  </nav>
+
+  <!-- Botão do modo relax -->
+  <button id="modoRelax">🌿 Ativar Modo Relax</button>
+
+  <main>
+    <section id="home">
+      <h2>Bem-vindo</h2>
+      <p>Este espaço foi criado para acolher e apoiar quem enfrenta momentos difíceis.
+         Aqui você encontra informações, dicas práticas e contatos de ajuda psicológica gratuita.</p>
+    </section>
+
+    <section id="contatos">
+      <h2>Contatos de Emergência</h2>
+      <ul>
+        <li><strong>CVV:</strong> 188 (24h - ligação gratuita)</li>
+        <li><strong>SAMU:</strong> 192</li>
+        <li><strong>Bombeiros:</strong> 193</li>
+        <li><strong>Delegacia da Mulher:</strong> 180</li>
+        <li><strong>CAPS Municipal:</strong> (XX) XXXX-XXXX</li>
+      </ul>
+    </section>
+
+    <section id="formulario">
+      <h2>Solicitar Ajuda Psicológica Gratuita</h2>
+      <form>
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu e-mail" required />
+        <select required>
+          <option value="">Selecione o motivo</option>
+          <option>Ansiedade</option>
+          <option>Depressão</option>
+          <option>Luto</option>
+          <option>Estresse/Trabalho</option>
+          <option>Outros</option>
+        </select>
+        <select required>
+          <option value="">Melhor horário</option>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+        <textarea rows="5" placeholder="Descreva sua situação"></textarea>
+        <button type="submit">Enviar Solicitação</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Apoio Psicológico Comunitário - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- script do JS -->
+  <script src="script.js"></script>
+</body>
+</html>
